@@ -140,6 +140,9 @@ textarea {
 .footer__inner .contact-information{
     width: 40%;
 }
+.contact-information p span i {
+    font-size: 25px;
+}
 .icons{
     width: 30%;
     padding: 70px;
