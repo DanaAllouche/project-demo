@@ -55,7 +55,9 @@ body {
 }
 
 .contact-information h1,
-.contact-form h1 {
+.contact-form h1,
+.FAQ h1,
+.location h1 {
     text-align: center;
 }
 
@@ -72,7 +74,80 @@ body {
     font-size: 18px;
 }
 
-.form input,textarea {
-    padding: 7px;
+.form input,
+textarea {
+    padding: 10px;
     margin-bottom: 15px;
+}
+
+.btn-primary {
+    font-size: 18px;
+    width: 120px;
+    border: none;
+    border-radius: 40px;
+    background-color: #aaa;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.FAQ {
+    margin-block: 50px;
+}
+
+.FAQ__cards {
+    max-width: 300px;
+    width: 100%;
+    border: 1px solid #aaa;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.FAQ__cards img {
+    width: 40%;
+    border: none;
+    border-radius: 120px;
+}
+
+.FAQ__cards p {
+    text-align: justify;
+}
+
+.location iframe {
+    width: 100%;
+}
+
+.location {
+    margin-block: 50px;
+}
+
+.footer {
+    border-top: 1px solid rgba(170, 170, 170, 0.774);
+}
+.footer__inner{
+    justify-content: normal;
+}
+
+.footer__inner .menu {
+    flex-direction: column;
+    justify-content: normal;
+}
+.footer__inner .logo img{
+    width: 60%;
+}
+.footer__inner .contact-information{
+    width: 40%;
+}
+.icons{
+    width: 30%;
+    padding: 70px;
+}
+.icons i{
+    font-size: 50px;
+    padding-inline:10px ;
+}
+.icons i:hover{
+    color: red;
 }
