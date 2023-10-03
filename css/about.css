@@ -1,49 +1,4 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
 
-.centered {
-    max-width: 1180px;
-    width: 100%;
-    margin: 0 auto;
-}
-
-.display {
-    display: flex;
-    justify-content: space-between;
-}
-
-.logo img {
-    width: 40%;
-    border: none;
-    border-radius: 120px;
-}
-
-.menu {
-    display: flex;
-    list-style-type: none;
-}
-
-.menu li {
-    padding: 13px 15px;
-}
-
-.menu li a {
-    text-decoration: none;
-    color: black;
-    font-size: 21px;
-}
-
-.menu li:hover {
-    text-decoration: underline;
-    background-color: brown;
-}
-
-.menu li a:hover {
-    color: white;
-}
 
 .contact-information {
     margin-block: 50px;
