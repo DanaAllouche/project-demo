@@ -39,7 +39,7 @@
     text-transform: uppercase;
   }
   a.active,a:hover{
-    background: #73828e;
+    background: #a9b9c6;
     transition: .5s;
   }
   .checkbtn{
