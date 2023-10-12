@@ -1,7 +1,5 @@
-footer{
-	position: relative;
-}
-.footer-distributed{
+
+.footer{
 	background-color: var(--color-primary);
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
@@ -9,46 +7,46 @@ footer{
 	text-align: left;
 	font: bold 16px sans-serif;
 	padding: 40px;
-  font-family: var(--font-family-alternate);
+    font-family: var(--font-family-alternate);
 
 }
 
-.footer-distributed .footer-left,
-.footer-distributed .footer-center,
-.footer-distributed .footer-right{
+.footer .footer__title,
+.footer .footer__contact,
+.footer .footer__about{
 	display: inline-block;
 	vertical-align: top;
 }
 
-.footer-distributed .footer-left{
+.footer .footer__title{
 	width: 40%;
 }
 
-.footer-distributed h3{
+.footer h3{
 	color: var(--color-text);
 	font: normal 36px 'Cookie', cursive;
 	margin: 0;
 }
 
-.footer-distributed h3 span{
+.footer h3 span{
 	color: var(--color-text-secondary);
 }
 
 
-.footer-distributed .footer-links{
+.footer .footer__links{
 	color: var(--color-text);
 	margin: 20px 0 12px;
 	padding: 0;
 }
 
-.footer-distributed .footer-links a{
+.footer .footer__links a{
 	display:inline-block;
 	line-height: 1.8;
 	text-decoration: none;
 	color:  inherit;
 }
 
-.footer-distributed .footer-company-name{
+.footer .footer-company-name{
 	color: var(--color-text);
 	font-size: 14px;
 	font-weight: normal;
@@ -56,11 +54,11 @@ footer{
 }
 
 
-.footer-distributed .footer-center{
+.footer .footer__contact{
 	width: 35%;
 }
 
-.footer-distributed .footer-center i{
+.footer .footer__contact i{
 	color:var(--color-text);
 	font-size: 25px;
 	width: 38px;
@@ -72,35 +70,35 @@ footer{
 	vertical-align: middle;
 }
 
-.footer-distributed .footer-center i.fa-envelope{
+.footer .footer__contact i.fa-envelope{
 	font-size: 17px;
 	line-height: 38px;
 }
 
-.footer-distributed .footer-center p{
+.footer .footer__contact p{
 	display: inline-block;
 	color:var(--color-text);
 	vertical-align: middle;
 	margin:0;
 }
 
-.footer-distributed .footer-center p span{
+.footer .footer__contact p span{
 	display:block;
 	font-weight: normal;
 	font-size:14px;
 	line-height:2;
 }
 
-.footer-distributed .footer-center p a{
+.footer .footer__contact p a{
 	color: var(--color-text);
 	text-decoration: none;;
 }
 
-.footer-distributed .footer-right{
-	width: 20%;
+.footer .footer__about{
+	max-width: 20%;
 }
 
-.footer-distributed .footer-company-about{
+.footer .footer-company-about{
 	line-height: 20px;
 	color:  var(--color-text);
 	font-size: 15px;
@@ -108,7 +106,7 @@ footer{
 	margin: 0;
 }
 
-.footer-distributed .footer-company-about span{
+.footer .footer-company-about span{
 	display: block;
 	color: var(--color-text);
 	font-size: var(--size-font-base);
@@ -116,11 +114,11 @@ footer{
 	margin-bottom: 20px;
 }
 
-.footer-distributed .footer-icons{
+.footer .footer-icons{
 	margin-top: 25px;
 }
 
-.footer-distributed .footer-icons a{
+.footer .footer-icons a{
 	display: inline-block;
 	width: 35px;
 	height: 35px;
@@ -137,21 +135,21 @@ footer{
 }
 
 @media (max-width: 768px) {
-    .footer-distributed{
+    .footer{
 		font: bold 14px sans-serif;
 
 	}
 
-	.footer-distributed .footer-left,
-	.footer-distributed .footer-center,
-	.footer-distributed .footer-right{
+	.footer .footer__title,
+	.footer .footer__contact,
+	.footer .footer__about{
 		display: block;
 		width: 100%;
 		margin-bottom: 40px;
 		text-align: center;
 	}
 
-	.footer-distributed .footer-center i{
+	.footer .footer__contact i{
 		margin-left: 0;
 	}
 }

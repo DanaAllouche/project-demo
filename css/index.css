@@ -83,7 +83,7 @@
     }
   }
 
-.practices-section {
+.practices {
     background-color: var(--color-primary); /* Choose your background color */
     padding-top: 10px;
     text-align: center;
@@ -91,12 +91,12 @@
     max-width: 100%;
 }
 
-.practices-title {
+.practices__title {
     margin-bottom: 40px;
     max-width: 80%;
 }
 
-.practices-title h2 {
+.practices__title h2 {
     font-size: var( --size-font-h3);
     color: var(--color-text);
     font-family: var(--font-family-alternate);
@@ -106,7 +106,7 @@
     line-height: 49px; 
 }
 
-.practices-title p {
+.practices__title p {
     line-height: 1.5;
     color: var(--color-text);
     font-family: var(--font-family-alternate);
@@ -115,12 +115,12 @@
 
 }
 
-.practices-list {
+.practices__list {
   display: flex;
   padding: 20px;
   gap: 20px;
 }
-.practices-list .practice-item {
+.practices__list .practice-item {
   background:var(--color-bg);
   padding: 26px;
   border-radius: 8px;
@@ -132,16 +132,16 @@
   transition: border 0.5s ease;
   width: calc(33.33% - 20px);
 }
-.practices-list .practice-item:hover {
+.practices__list .practice-item:hover {
   border: 2px solid #000;
 }
-.practices-list .practice-item img {
+.practices__list .practice-item img {
   width: 100%;
   aspect-ratio: 16/9;
   border-radius: 8px;
   object-fit: cover;
 }
-.practices-list span {
+.practices__list span {
   display: inline-block;
   background: #F7DFF5;
   margin-top: 32px;
@@ -150,19 +150,19 @@
   border-radius: 50px;
   font-weight: 600;
 }
-.practices-list .NLP {
+.practices__list .NLP {
   background-color: #d1e8ff;
   color: #2968a8;
 }   
-.practices-list .Sikka {
+.practices__list .Sikka {
   background-color: #d1e8ff;
   color: #2968a8;
 }
-.practices-list .Coaching {
+.practices__list .Coaching {
   background-color: #d1e8ff;
   color: #2968a8;
 }
-.practices-list .Catering {
+.practices__list .Catering {
   background-color: #d1e8ff;
   color: #2968a8;
 }
@@ -186,7 +186,7 @@
   transition: 0.2s ease;
 }
 
-.practices-list .practice-item:hover .arrow  {
+.practices__list .practice-item:hover .arrow  {
   background-color: var(--color-primary); 
   color: var(--color-bg);
   border-color: var(--color-primary);
@@ -280,7 +280,7 @@ input {
 }
 
 /* Practices section adjustments */
-.practices-list {
+.practices__list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Create a responsive grid */
   gap: 10px; /* Add spacing between grid items */
@@ -288,12 +288,12 @@ input {
   margin: 0 auto;
 }
 
-.practices-list .practice-item {
+.practices__list .practice-item {
   width: 90%; /* Make each item full width within the grid cell */
   margin-bottom: 0; /* Remove the bottom margin */
   
 }
-.practices-list .practice-item img {
+.practices__list .practice-item img {
   max-width: 100%; /* Ensure images scale within their containers */
   height: auto;
 }
