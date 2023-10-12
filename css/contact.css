@@ -1,0 +1,78 @@
+
+.contact-information {
+    margin-block: 50px;
+}
+
+.contact-information span {
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.contact-information h1,
+.contact-form h1,
+.FAQ h1,
+.location h1 {
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    max-width: calc(1180px/2);
+    width: 100%;
+    margin: 0 auto;
+}
+
+.form label {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.form input,
+textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.btn-primary {
+    font-size: 18px;
+    width: 120px;
+    border: none;
+    border-radius: 40px;
+    background-color: #aaa;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.FAQ {
+    margin-block: 50px;
+}
+
+.FAQ__cards {
+    max-width: 300px;
+    width: 100%;
+    border: 1px solid #aaa;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.FAQ__cards img {
+    width: 40%;
+    border: none;
+    border-radius: 120px;
+}
+
+.FAQ__cards p {
+    text-align: justify;
+}
+
+.location iframe {
+    width: 100%;
+}
+
+.location {
+    margin-block: 50px;
+}
