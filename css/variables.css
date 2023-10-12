@@ -4,17 +4,13 @@
   --color-text: #000;
   --color-text-secondary: #201a5a;
   --color-light-grey: #F1F1F1;
-  --color-button-text:var(--color-bg);
 
   --color-primary: #d47f81;
   --color-primary-light: #0DBBFC;
   --color-primary-lighter: #8FB6D5;
-  --color-secondary: #65E4A3;
 
   --color-link: #0A2640;
-  --color-link-focus: green;
 
-  
   /* Fonts */
   --font-family-alternate: 'Manrope', sans-serif;
   --font-family-menu: 'Open Sans', sans-serif;
