@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body {
     margin: 0;
     padding: 0;
@@ -43,4 +46,55 @@ body {
 
 .menu li a:hover {
     color: white;
+}
+/* footer */
+
+.footer {
+    border-top: 1px solid rgba(170, 170, 170, 0.774);
+}
+.footer__inner{
+    justify-content: normal;
+}
+
+.footer__inner .menu {
+    flex-direction: column;
+    justify-content: normal;
+}
+.footer__inner .logo img{
+    width: 60%;
+}
+.footer__inner .contact-information{
+    width: 40%;
+}
+.contact-information p span i {
+    font-size: 25px;
+}
+.icons{
+    width: 50%;
+    padding: 70px;
+}
+.icons i{
+    font-size: 50px;
+    padding-inline:10px ;
+}
+.icons i:hover{
+    color: red;
+}
+
+::-webkit-scrollbar {
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 25px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #6e93f7;
+    border-radius: 25px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #4070f4;
 }
