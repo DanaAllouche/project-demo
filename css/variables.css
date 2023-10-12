@@ -1,0 +1,42 @@
+:root {
+  /* Colors */
+  --color-bg: #ffffff;;
+  --color-text: #000;
+  --color-text-secondary: #201a5a;
+  --color-light-grey: #F1F1F1;
+  --color-button-text:var(--color-bg);
+
+  --color-primary: #d47f81;
+  --color-primary-light: #0DBBFC;
+  --color-primary-lighter: #8FB6D5;
+  --color-secondary: #65E4A3;
+
+  --color-link: #0A2640;
+  --color-link-focus: green;
+
+  
+  /* Fonts */
+  --font-family-alternate: 'Manrope', sans-serif;
+  --font-family-menu: 'Open Sans', sans-serif;
+  --font-weight-label: bold;
+  --font-weight-text: 600;
+  --line-height-button1: 28px ;
+  --line-height-p: calc(var( --line-height-button1)* 2.57);
+
+  /* Sizes */
+  --size-font-base: 16px;
+  --size-font-span: 43px;
+  --size-font-h1: calc(var(--size-font-base) * 2.75);
+  --size-font-h2: calc(var(--size-font-base) * 2);
+  --size-font-h3: calc(var(--size-font-base) * 1.75);
+  --size-font-h4: calc(var(--size-font-base) * 1.25);
+  --size-font-h5: calc(var(--size-font-base) * 1.5);
+  --size-font-h6: calc(var(--size-font-base) * 1.15);
+  --size-font-h7: calc(var(--size-font-base) * 1.15);
+
+
+  --color-button: var(--color-primary);
+  --gap-button: 8px;
+  --gap-left-content: calc(var(--gap-button) * 5);
+
+}
